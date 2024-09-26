@@ -10,33 +10,33 @@ body {
 }
 
 header {
-    display:flex;
-    align-items:center;
+    display: flex;
+    align-items: center;
     justify-content: space-between;
-    background-color:white;
+    background-color: white;
     border-radius: 3rem;
-    margin:1% 1% 1% 1%;
+    margin: 1% 1% 1% 1%;
 }
 
 header img {
     margin: 0.5rem;
-    width:12rem;
+    width: 12rem;
     margin-top: 1.0rem;
 }
 
 ul {
-    display:flex;
+    display: flex;
     list-style-type: none;
 }
 
 nav a {
-    color:black;
+    color:  black;
     text-decoration: none;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
     margin: 2em;
-    align-items:baseline;
-    border-radius:1rem;
-    padding:1rem;
+    align-items: baseline;
+    border-radius: 1rem;
+    padding: 1rem;
 }
 
 nav a:hover{
@@ -60,6 +60,15 @@ margin-top: 3%;
 
 div {
     display: flex;
-    justify-content: left;
-    padding:3% 5% 5% 5%;
+    padding: 3% 5% 5% 5%;
+    text-shadow: 0.1em 0.1em black;
+}
+
+.about {
+    display: flex;
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: larger;
 }
