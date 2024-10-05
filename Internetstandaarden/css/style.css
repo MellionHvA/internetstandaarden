@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: steelblue;
+    color: white;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border: solid black 2px;
+    border-radius: 3rem;
+    margin: 1%;
+    padding: 1%;
+}
+
+header img {
+    width: 12rem;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav a {
+    color:  black;
+    text-decoration: none;
+    margin: 2em;
+    align-items: baseline;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+nav a:hover{
+	color: white;
+    background-color: steelblue;
+	text-decoration: none;
+    transition: ease-in 0.3s;
+}
+
+nav a:active {
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 0.1em 0.1em black;
+    margin-top: 3%;
+    font-size: 250%;
+}
+
+div {
+    justify-content: center;
+    text-align: center;
+    padding: 5%;
+    text-shadow: 0.1em 0.1em black;
+}
+
+hr {
+    margin-left:25%;
+    margin-right:25%;
+}
+
+div p {
+    font-size:150%;
+    margin-left:25%;
+    margin-right:25%;
+    padding: 3%;
+}
+
+div h2 {
+    padding: 3%;
+    font-size: 200%;
+}
+
+.youtube {
+    width: 880px;
+    height: 495px;
+}
+
+.spotify {
+    border: 0px;
+    width: 600px;
+    height: 200px;
+}
+
+div p.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    border: solid white 2px;
+    border-radius: 3rem;
+    margin: 1%;
+    padding: 1% 1% 1% 2%;
+    text-decoration: none;
+}
+
+.fa-brands {
+    display: flex;
+    font-size: 300%;
+    color: white;
+    letter-spacing: 2rem;
+}
+
+.fa-brands:hover {
+    color: steelblue;
+    transition: ease-in 0.2s;
+}
