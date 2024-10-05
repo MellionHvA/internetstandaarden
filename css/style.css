@@ -61,7 +61,7 @@ h1 {
 div {
     justify-content: center;
     text-align: center;
-    padding: 5%;
+    padding: 3%;
     text-shadow: 0.1em 0.1em black;
 }
 
@@ -75,6 +75,11 @@ div p {
     margin-left:25%;
     margin-right:25%;
     padding: 3%;
+}
+
+div img {
+    width: 500px;
+    height: auto;
 }
 
 div h2 {
@@ -91,13 +96,6 @@ div h2 {
     border: 0px;
     width: 600px;
     height: 200px;
-}
-
-div p.about {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
 }
 
 
