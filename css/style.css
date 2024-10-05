@@ -15,6 +15,7 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: white;
+    border: solid black 2px;
     border-radius: 3rem;
     margin: 1%;
     padding: 1%;
@@ -54,10 +55,10 @@ h1 {
     color: white;
     text-shadow: 0.1em 0.1em black;
     margin-top: 3%;
+    font-size: 250%;
 }
 
 div {
-    display: grid;
     justify-content: center;
     text-align: center;
     padding: 5%;
@@ -78,6 +79,7 @@ div p {
 
 div h2 {
     padding: 3%;
+    font-size: 200%;
 }
 
 .youtube {
@@ -91,13 +93,13 @@ div h2 {
     height: 200px;
 }
 
-.about {
+div p.about {
     display: flex;
-    width: 60%;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
+
 
 footer {
     display: flex;
@@ -105,6 +107,7 @@ footer {
     justify-content: space-between;
     background-color: black;
     color: white;
+    border: solid white 2px;
     border-radius: 3rem;
     margin: 1%;
     padding: 1% 1% 1% 2%;
