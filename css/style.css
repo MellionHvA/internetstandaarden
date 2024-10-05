@@ -58,7 +58,7 @@ h1 {
     font-size: 250%;
 }
 
-div {
+article {
     justify-content: center;
     text-align: center;
     padding: 3%;
@@ -66,24 +66,24 @@ div {
 }
 
 hr {
-    margin-left:25%;
-    margin-right:25%;
+    width: 50%;
+    margin: auto;
 }
 
-div p {
-    font-size:150%;
-    margin-left:25%;
-    margin-right:25%;
+article p {
+    font-family: Helvetica, sans-serif;
+    font-size: 150%;
+    margin-left: 25%;
+    margin-right: 25%;
     padding: 3%;
 }
 
-div img {
-    width: 500px;
-    height: auto;
+article img {
+    max-width: 100%;
 }
 
-div h2 {
-    padding: 3%;
+article h2 {
+    padding: 2% 0% 1% 0%;
     font-size: 200%;
 }
 
@@ -97,7 +97,6 @@ div h2 {
     width: 600px;
     height: 200px;
 }
-
 
 footer {
     display: flex;
