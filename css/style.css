@@ -80,16 +80,16 @@ h1 {
     font-size: 250%;
 }
 
-article {
-    justify-content: center;
-    text-align: center;
-    padding: 3%;
-}
-
 hr {
     width: 50%;
     margin: auto;
     border: 1px solid var(--main-color);
+}
+
+article {
+    justify-content: center;
+    text-align: center;
+    padding: 3%;
 }
 
 article p {
